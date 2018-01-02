@@ -38,7 +38,6 @@
 
 		</testng>
 		<antcall target="transform" />
-		<!-- <fail message="TEST FAILURE" if="failed" /> -->
 		
 	</target>
 
