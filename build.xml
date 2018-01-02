@@ -23,7 +23,7 @@
 	</target>
 	<taskdef resource="testngtasks" classpath="${lib.dir}/testng.jar" />
 
-	<!-- 开始测试 -->
+
 	<target name="run_tests" depends="compile">
 		<echo>running tests</echo>
 		<testng classpathref="compile.path" outputdir="${output.dir}"
@@ -37,21 +37,10 @@
     </classfileset>
 
 		</testng>
-		<antcall target="transform" />
+
 		
 	</target>
 
-	<!-- 生成报告 -->
-	<target name="transform" description="report">
-		<xslt
-			in="${output.dir}/testng-results.xml"
-			style="${lib.dir}/testng-results.xsl"
-			out="${output.dir}/Report.html"
-			force="yes">
-			<!-- you need to specify the directory here again -->
-			<param name="testNgXslt.outputDir" expression="${output.dir}" />
-			<classpath refid="compile.path" />
-		</xslt>
-	</target>
+
 </project>
 
