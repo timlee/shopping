@@ -1,0 +1,12 @@
+[0.001][INFO]:      ChromeDriver 22.0.1203.0 C:\Users\user\Documents\DemoProjects\shoppingwebdemo\lib\chromedriver.exe
+[1.092][FINE]:      Initializing session with capabilities {
+   "browserName": "internet explorer",
+   "ensureCleanSession": true,
+   "ignoreProtectedModeSettings": true,
+   "platform": "WINDOWS",
+   "version": ""
+}
+
+[1.093][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[46.098][SEVERE]:   Failed to initialize connection
+[46.098][INFO]:     Chrome shutdown

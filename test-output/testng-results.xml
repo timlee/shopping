@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Reporter:2016-08-18 10:38:58===>login start...]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2016-08-18 10:39:03===>...login end
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9898" started-at="2016-08-18T02:38:55Z" finished-at="2016-08-18T02:39:05Z">
+    <groups>
+      <group name="login">
+        <method signature="LoginTestSuiteTestng.Login_phone_TestCase_01()[pri:0, instance:logo.testsuite.login.LoginTestSuiteTestng@2ef615ff]" name="Login_phone_TestCase_01" class="logo.testsuite.login.LoginTestSuiteTestng"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Default test" duration-ms="9898" started-at="2016-08-18T02:38:55Z" finished-at="2016-08-18T02:39:05Z">
+      <class name="logo.testsuite.login.LoginTestSuiteTestng">
+        <test-method status="PASS" signature="Login_phone_TestCase_01()[pri:0, instance:logo.testsuite.login.LoginTestSuiteTestng@2ef615ff]" name="Login_phone_TestCase_01" duration-ms="9890" started-at="2016-08-18T10:38:55Z" finished-at="2016-08-18T10:39:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reporter:2016-08-18 10:38:58===>login start...]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2016-08-18 10:39:03===>...login end
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_phone_TestCase_01 -->
+      </class> <!-- logo.testsuite.login.LoginTestSuiteTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
